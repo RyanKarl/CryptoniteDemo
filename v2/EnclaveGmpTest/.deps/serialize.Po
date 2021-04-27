@@ -1,0 +1,32 @@
+serialize.o: serialize.c gmp.h \
+ /home/software/sgxsdk/include/tlibc/stddef.h \
+ /home/software/sgxsdk/include/tlibc/sys/cdefs.h \
+ /home/software/sgxsdk/include/tlibc/sys/_types.h \
+ /home/software/sgxsdk/include/tlibc/limits.h \
+ /home/software/sgxsdk/include/tlibc/sys/limits.h \
+ /home/software/sgxsdk/include/tlibc/string.h \
+ /home/software/sgxsdk/include/tlibc/stdlib.h \
+ /home/software/sgxsdk/include/tlibc/math.h \
+ /home/software/sgxsdk/include/tlibc/float.h serialize.h
+
+gmp.h:
+
+/home/software/sgxsdk/include/tlibc/stddef.h:
+
+/home/software/sgxsdk/include/tlibc/sys/cdefs.h:
+
+/home/software/sgxsdk/include/tlibc/sys/_types.h:
+
+/home/software/sgxsdk/include/tlibc/limits.h:
+
+/home/software/sgxsdk/include/tlibc/sys/limits.h:
+
+/home/software/sgxsdk/include/tlibc/string.h:
+
+/home/software/sgxsdk/include/tlibc/stdlib.h:
+
+/home/software/sgxsdk/include/tlibc/math.h:
+
+/home/software/sgxsdk/include/tlibc/float.h:
+
+serialize.h:

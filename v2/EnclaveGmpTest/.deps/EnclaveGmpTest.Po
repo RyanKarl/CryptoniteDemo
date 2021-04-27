@@ -1,0 +1,68 @@
+EnclaveGmpTest.o: EnclaveGmpTest.c EnclaveGmpTest_t.h \
+ /home/software/sgxsdk/include/tlibc/stdint.h \
+ /home/software/sgxsdk/include/tlibc/sys/stdint.h \
+ /home/software/sgxsdk/include/tlibc/sys/cdefs.h \
+ /home/software/sgxsdk/include/tlibc/sys/_types.h \
+ /home/software/sgxsdk/include/tlibc/wchar.h \
+ /home/software/sgxsdk/include/tlibc/stddef.h \
+ /home/software/sgxsdk/include/sgx_edger8r.h \
+ /home/software/sgxsdk/include/sgx_defs.h \
+ /home/software/sgxsdk/include/sgx_error.h \
+ /home/software/sgxsdk/include/sgx_eid.h sgx_tgmp.h \
+ /home/software/sgxsdk/include/tlibc/limits.h \
+ /home/software/sgxsdk/include/tlibc/sys/limits.h \
+ /home/software/sgxsdk/include/tlibc/stdlib.h sgx_tgmp.h \
+ /home/software/sgxsdk/include/sgx_trts.h \
+ /home/software/sgxsdk/include/tlibc/math.h \
+ /home/software/sgxsdk/include/tlibc/float.h \
+ /home/software/sgxsdk/include/tlibc/stdio.h \
+ /home/software/sgxsdk/include/tlibc/stdarg.h \
+ /home/software/sgxsdk/include/tlibc/string.h serialize.h gmp.h
+
+EnclaveGmpTest_t.h:
+
+/home/software/sgxsdk/include/tlibc/stdint.h:
+
+/home/software/sgxsdk/include/tlibc/sys/stdint.h:
+
+/home/software/sgxsdk/include/tlibc/sys/cdefs.h:
+
+/home/software/sgxsdk/include/tlibc/sys/_types.h:
+
+/home/software/sgxsdk/include/tlibc/wchar.h:
+
+/home/software/sgxsdk/include/tlibc/stddef.h:
+
+/home/software/sgxsdk/include/sgx_edger8r.h:
+
+/home/software/sgxsdk/include/sgx_defs.h:
+
+/home/software/sgxsdk/include/sgx_error.h:
+
+/home/software/sgxsdk/include/sgx_eid.h:
+
+sgx_tgmp.h:
+
+/home/software/sgxsdk/include/tlibc/limits.h:
+
+/home/software/sgxsdk/include/tlibc/sys/limits.h:
+
+/home/software/sgxsdk/include/tlibc/stdlib.h:
+
+sgx_tgmp.h:
+
+/home/software/sgxsdk/include/sgx_trts.h:
+
+/home/software/sgxsdk/include/tlibc/math.h:
+
+/home/software/sgxsdk/include/tlibc/float.h:
+
+/home/software/sgxsdk/include/tlibc/stdio.h:
+
+/home/software/sgxsdk/include/tlibc/stdarg.h:
+
+/home/software/sgxsdk/include/tlibc/string.h:
+
+serialize.h:
+
+gmp.h:
