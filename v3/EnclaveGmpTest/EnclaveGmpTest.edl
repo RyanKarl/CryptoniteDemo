@@ -1,0 +1,57 @@
+
+enclave {
+
+	trusted {
+		include "sgx_tgmp.h"
+
+		public void tgmp_init();
+
+		public void do_Setup(int num);
+
+		public void do_Point_Addition(
+                        [string, in] char *str_a, [string, in] char *str_b, int id
+                );
+
+		public void do_Point_Addition_Recovery(
+                        int id
+                );
+
+		public void do_Aggregation_Result(
+                         [out, size=len] int *sum, uint32_t len
+                );
+
+		public size_t check_Setup1(int id, int choice
+		);
+
+		public int check_Setup2([user_check] char *str_c, size_t len
+                );
+
+		public size_t e_mpz_add(
+			[string, in] char *str_a, [string, in] char *str_b
+		);
+
+		public size_t e_mpz_mul(
+			[string, in] char *str_a, [string, in] char *str_b
+		);
+
+		public size_t e_mpz_div(
+			[string, in] char *str_a, [string, in] char *str_b
+		);
+
+		public size_t e_mpf_div(
+			[string, in] char *str_a, [string, in] char *str_b, int digits
+		);
+
+		public int e_get_result(
+			[user_check] char *str_c, size_t len
+		);
+
+		public size_t e_pi (uint64_t digits);
+	};
+
+	//untrusted {
+        	//void ocall_print_string([in, string] const char *str);
+    //};
+
+};
+
